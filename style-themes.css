@@ -95,6 +95,34 @@
     outline-color: #b6aaff;
   }
   
+  .click-button {
+    position: relative;
+    margin-top: 20px;
+    padding-top: 7px;
+    padding-right: 16px;
+    padding-bottom: 7px;
+    padding-left: 16px;
+    font-size: 12px;
+    border-radius: 2px;
+    background-color: transparent;
+    cursor: pointer;
+    color: #63d953;
+    border: 1px solid #63d953;
+  }
+  
+  .click-button:active {
+    opacity: 0.8;
+  }
+  
+  .click-button:focus,
+  .click-button:hover {
+    color: #ffffff;
+    background-color: #63d953;
+  }
+  .click-button:focus {
+    outline-color: #aaffb5;
+  }
+
   .about {
     display: flex;
     flex-wrap: wrap;
